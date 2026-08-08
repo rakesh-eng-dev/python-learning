@@ -116,22 +116,112 @@ Python will be applied to practical Data Engineering tasks such as:
 python-learning/
 │
 ├── 01_Python_Basics/
-├── 02_Control_Flow/
-├── 03_Functions/
-├── 04_Data_Structures/
-├── 05_Object_Oriented_Programming/
-├── 06_Exception_Handling/
-├── 07_File_Handling/
-├── 08_Modules_and_Packages/
-├── 09_Iterators_and_Generators/
-├── 10_Decorators/
-├── 11_Regular_Expressions/
-├── 12_Python_Advanced/
+│   ├── notes/
+│   │   ├── introduction.md
+│   │   ├── python-history.md
+│   │   └── python-architecture.md
+│   │
+│   └── code/
+│       ├── hello_world.py
+│       └── basic_programs.py
 │
-├── 13_NumPy/
-├── 14_Pandas/
-├── 15_APIs/
-├── 16_SQL_with_Python/
+├── 02_Variables_and_Data_Types/
+│   ├── notes/
+│   │   └── variables-and-data-types.md
+│   └── code/
+│       ├── variables.py
+│       ├── type_casting.py
+│       └── data_types.py
+│
+├── 03_Operators/
+│   ├── notes/
+│   │   └── operators.md
+│   └── code/
+│       └── operators.py
+│
+├── 04_Comments_and_Docstrings/
+│   ├── notes/
+│   │   └── comments-and-docstrings.md
+│   └── code/
+│       └── comments.py
+│
+├── 05_Input_Handling/
+│   ├── notes/
+│   └── code/
+│       ├── input.py
+│       └── sys_argv.py
+│
+├── 06_Strings/
+│   ├── notes/
+│   └── code/
+│       └── strings.py
+│
+├── 07_Control_Flow/
+│   ├── notes/
+│   └── code/
+│       ├── if_else.py
+│       └── loops.py
+│
+├── 08_Functions/
+│   ├── notes/
+│   └── code/
+│       ├── functions.py
+│       ├── parameters.py
+│       ├── lambda.py
+│       ├── map_filter_reduce.py
+│       ├── recursion.py
+│       └── generators.py
+│
+├── 09_Data_Structures/
+│   ├── notes/
+│   └── code/
+│       ├── lists.py
+│       ├── tuples.py
+│       ├── sets.py
+│       └── dictionaries.py
+│
+├── 10_Object_Oriented_Programming/
+│   ├── notes/
+│   └── code/
+│       ├── classes_objects.py
+│       ├── constructors.py
+│       ├── inheritance.py
+│       ├── polymorphism.py
+│       ├── abstraction.py
+│       └── encapsulation.py
+│
+├── 11_File_Handling/
+│   ├── notes/
+│   └── code/
+│       └── file_handling.py
+│
+├── 12_Exception_Handling/
+│   ├── notes/
+│   └── code/
+│       └── exception_handling.py
+│
+├── 13_Advanced_Python/
+│   ├── notes/
+│   └── code/
+│       ├── decorators.py
+│       ├── iterators.py
+│       ├── generators.py
+│       └── logging.py
+│
+├── 14_Database_and_APIs/
+│   ├── notes/
+│   └── code/
+│       ├── database_connection.py
+│       └── rest_api.py
+│
+├── 15_Python_Libraries/
+│   ├── NumPy/
+│   ├── Pandas/
+│   └── Matplotlib/
+│
+├── 16_Automation/
+│   ├── cron/
+│   └── airflow/
 │
 ├── 17_Data_Engineering/
 │   ├── ETL/
