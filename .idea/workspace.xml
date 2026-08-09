@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66de6a66-cf66-4bfc-bc70-7589786fe8ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/01_Basics/variables_and_data_types.py" afterDir="false" />
+    <list default="true" id="66de6a66-cf66-4bfc-bc70-7589786fe8ab" name="Changes" comment="Add variables and data types practice">
+      <change afterPath="$PROJECT_DIR$/01_Basics/variable_scope.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,61 +37,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000035234689353" />
-      <entry key="MS500" value="1.1240193333755495" />
-      <entry key="S2" value="2.444614284466036" />
-      <entry key="S5" value="4.1925563673388915" />
-      <entry key="S10" value="6.039592387501991" />
-      <entry key="S30" value="11.85027103933103" />
-      <entry key="S60" value="19.16993143773672" />
-      <entry key="M2" value="30.332478108366423" />
-      <entry key="M5" value="51.88350734508819" />
-      <entry key="M10" value="69.63187405269223" />
-      <entry key="M15" value="78.38837646267922" />
-      <entry key="M30" value="89.29150533842764" />
-      <entry key="H1" value="95.74599463047518" />
-      <entry key="H2" value="99.26610695304373" />
-      <entry key="H4" value="101.10540506672415" />
-      <entry key="D1" value="102.68031273095794" />
-      <entry key="W1" value="102.95423327390874" />
+      <entry key="MS100" value="5.128351619188939E-160" />
+      <entry key="MS500" value="1.3868366091919502E-32" />
+      <entry key="S2" value="1.184148484652489E-8" />
+      <entry key="S5" value="9.278843354090625E-4" />
+      <entry key="S10" value="0.04789687795676785" />
+      <entry key="S30" value="0.8909263453047207" />
+      <entry key="S60" value="2.2162181625610358" />
+      <entry key="M2" value="3.9067683950970356" />
+      <entry key="M5" value="5.893741768129758" />
+      <entry key="M10" value="7.390553044301453" />
+      <entry key="M15" value="9.490167581115676" />
+      <entry key="M30" value="22.01254873094405" />
+      <entry key="H1" value="49.73901606673647" />
+      <entry key="H2" value="81.27763502523878" />
+      <entry key="H4" value="105.48332242989444" />
+      <entry key="D1" value="131.89062793913362" />
+      <entry key="W1" value="137.10863497072873" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="2.1780618590198838E-83" />
-      <entry key="S5" value="1.1905327315814626E-33" />
-      <entry key="S10" value="4.790916673836867E-17" />
-      <entry key="S30" value="5.746136055693962E-6" />
-      <entry key="S60" value="0.0034578471927190785" />
-      <entry key="M2" value="0.09072308877322899" />
-      <entry key="M5" value="0.7061845957959076" />
-      <entry key="M10" value="1.441301526376184" />
-      <entry key="M15" value="1.8359804717079822" />
-      <entry key="M30" value="2.344098475638822" />
-      <entry key="H1" value="2.651040019352898" />
-      <entry key="H2" value="2.819910940945627" />
-      <entry key="H4" value="2.908505849711088" />
-      <entry key="D1" value="2.984545483990511" />
-      <entry key="W1" value="2.997787124451543" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000028889846" />
+      <entry key="S5" value="1.0003951479345716" />
+      <entry key="S10" value="1.0229425273728916" />
+      <entry key="S30" value="1.4330725328973077" />
+      <entry key="S60" value="2.081791045869882" />
+      <entry key="M2" value="3.035599688729665" />
+      <entry key="M5" value="4.364411683910021" />
+      <entry key="M10" value="5.274836344869452" />
+      <entry key="M15" value="5.936161860580689" />
+      <entry key="M30" value="7.5103107029235" />
+      <entry key="H1" value="9.464579639734715" />
+      <entry key="H2" value="11.222998419210644" />
+      <entry key="H4" value="12.447448436746173" />
+      <entry key="D1" value="13.714379351400893" />
+      <entry key="W1" value="13.95847790965989" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9460609486384964" />
-      <entry key="MS500" value="1.0911044452128036" />
-      <entry key="S2" value="2.2644114793728143" />
-      <entry key="S5" value="4.0235429352568906" />
-      <entry key="S10" value="5.924508899285808" />
-      <entry key="S30" value="11.790568700909109" />
-      <entry key="S60" value="19.125810236879285" />
-      <entry key="M2" value="30.37661820636017" />
-      <entry key="M5" value="52.54268867715159" />
-      <entry key="M10" value="71.0359262339127" />
-      <entry key="M15" value="80.1948342262456" />
-      <entry key="M30" value="91.61788113126492" />
-      <entry key="H1" value="98.38728931438371" />
-      <entry key="H2" value="102.08090329360823" />
-      <entry key="H4" value="104.01129030413118" />
-      <entry key="D1" value="105.66441240219538" />
-      <entry key="W1" value="105.95195648599493" />
+      <entry key="MS100" value="7.725565148744376E-5" />
+      <entry key="MS500" value="0.15051717265392695" />
+      <entry key="S2" value="0.6228687147512075" />
+      <entry key="S5" value="0.8285175100302239" />
+      <entry key="S10" value="0.9731529926432506" />
+      <entry key="S30" value="2.2512152891294104" />
+      <entry key="S60" value="4.234188360216868" />
+      <entry key="M2" value="6.892471791695507" />
+      <entry key="M5" value="10.228404983701942" />
+      <entry key="M10" value="12.647098449099177" />
+      <entry key="M15" value="15.412249180130495" />
+      <entry key="M30" value="29.51244747447753" />
+      <entry key="H1" value="59.19529491525065" />
+      <entry key="H2" value="92.494802631642" />
+      <entry key="H4" value="117.92721939876219" />
+      <entry key="D1" value="145.6043003991065" />
+      <entry key="W1" value="151.067008657852" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -107,6 +108,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.variable_scope.executor": "Run",
     "Python.variables_and_data_types.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -138,14 +140,38 @@
       <option name="presentableId" value="Default" />
       <updated>1786252994233</updated>
       <workItem from="1786252995256" duration="5000" />
-      <workItem from="1786253010369" duration="1101000" />
+      <workItem from="1786253010369" duration="1489000" />
+      <workItem from="1786272164996" duration="4534000" />
     </task>
+    <task id="LOCAL-00001" summary="Add variables and data types practice">
+      <option name="closed" value="true" />
+      <created>1786254441397</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1786254441397</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add variables and data types practice">
+      <option name="closed" value="true" />
+      <created>1786254450852</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1786254450852</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Revise README for clarity and updated structure&#10;&#10;Updated objectives and roadmap sections for clarity and focus on practical applications. Revised repository structure to reflect new organization and added relevant topics." />
+    <MESSAGE value="Add variables and data types practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add variables and data types practice" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_learning$variable_scope.coverage" NAME="variable_scope Coverage Results" MODIFIED="1786276033275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_Basics" />
     <SUITE FILE_PATH="coverage/python_learning$variables_and_data_types.coverage" NAME="variables_and_data_types Coverage Results" MODIFIED="1786253546802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_Basics" />
   </component>
 </project>
