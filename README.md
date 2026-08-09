@@ -2,22 +2,21 @@
 
 Welcome to my **Python Learning** repository.
 
-This repository documents my journey of learning and practicing Python, starting from the fundamentals and gradually progressing toward **Data Engineering, automation, problem solving, and technical interviews**.
+This repository documents my journey of learning and practicing Python, starting from the fundamentals and gradually progressing toward **Data Engineering, automation, problem solving, and real-world applications**.
 
-The goal is not just to complete a course, but to build a strong and practical understanding of Python through **learning, coding, practice, and real-world applications**.
+The main focus of this repository is **learning by coding** rather than maintaining large amounts of theory.
 
 ---
 
 ## 🎯 Objectives
 
 - Build strong Python fundamentals
-- Develop clean and readable coding practices
-- Strengthen problem-solving skills
-- Learn Python concepts required for Data Engineering
-- Practice Python through coding exercises
-- Work with databases, APIs, and files
-- Apply Python to real-world Data Engineering problems
-- Prepare for technical interviews
+- Practice each concept through coding problems
+- Improve problem-solving skills
+- Learn Python required for Data Engineering
+- Work with files, databases, APIs, and data
+- Apply Python to real-world Data Engineering tasks
+- Build practical projects
 
 ---
 
@@ -25,25 +24,44 @@ The goal is not just to complete a course, but to build a strong and practical u
 
 ## 1️⃣ Python Fundamentals
 
-- Introduction to Python
 - Variables & Data Types
+- Variable Scope
 - Type Casting
 - Operators
 - Comments & Docstrings
-- Input & Output
+- Input Handling
+- Strings
 - Conditional Statements
 - Loops
+
+> Each topic is practiced through coding problems designed to understand and apply the concept.
+
+---
+
+## 2️⃣ Functions
+
 - Functions
-- Strings
+- Parameters & Arguments
+- Lambda Functions
+- Map, Filter & Reduce
+- Higher-Order Functions
+- Recursion
+- Generators
+- `yield`
+
+---
+
+## 3️⃣ Data Structures
+
 - Lists
 - Tuples
 - Sets
 - Dictionaries
-- Scope
+- Comprehensions
 
 ---
 
-## 2️⃣ Object-Oriented Programming
+## 4️⃣ Object-Oriented Programming
 
 - Classes & Objects
 - Constructors
@@ -57,20 +75,23 @@ The goal is not just to complete a course, but to build a strong and practical u
 
 ---
 
-## 3️⃣ Intermediate & Advanced Python
+## 5️⃣ File & Exception Handling
 
-- Exception Handling
 - File Handling
+- Reading & Writing Files
+- Exception Handling
+- `try`
+- `except`
+- `else`
+- `finally`
+
+---
+
+## 6️⃣ Advanced Python
+
 - Modules & Packages
-- Lambda Functions
-- Map, Filter & Reduce
-- Higher-Order Functions
-- Recursion
 - Iterators
-- Generators
-- `yield`
 - Decorators
-- Comprehensions
 - Regular Expressions
 - Virtual Environments
 - PIP & PyPI
@@ -78,35 +99,41 @@ The goal is not just to complete a course, but to build a strong and practical u
 
 ---
 
-## 4️⃣ Python for Data Engineering
+## 7️⃣ Database & APIs
 
-Python will be applied to practical Data Engineering tasks such as:
-
-- File Processing
-- CSV / JSON Processing
-- Data Cleaning
-- Data Transformation
-- ETL Pipelines
 - Database Connectivity
+- SQL with Python
+- PostgreSQL
+- JSON
 - REST APIs
-- Automation
-- Scheduling
-- Data Validation
-- Logging & Error Handling
+- API Data Processing
 
 ---
 
-## 5️⃣ Python Libraries & Tools
+## 8️⃣ Python Libraries
 
 - NumPy
 - Pandas
+- Matplotlib
 - Requests
-- PostgreSQL
-- SQLAlchemy
-- PySpark
-- Apache Airflow
-- Apache Kafka
-- Boto3
+
+---
+
+## 9️⃣ Python for Data Engineering
+
+Python will be applied to practical Data Engineering tasks:
+
+- File Processing
+- CSV Processing
+- JSON Processing
+- Data Cleaning
+- Data Transformation
+- Data Validation
+- ETL Pipelines
+- Database Loading
+- API Data Extraction
+- Automation
+- Logging
 
 ---
 
@@ -115,122 +142,83 @@ Python will be applied to practical Data Engineering tasks such as:
 ```text
 python-learning/
 │
-├── 01_Python_Basics/
-│   ├── notes/
-│   │   ├── introduction.md
-│   │   ├── python-history.md
-│   │   └── python-architecture.md
-│   │
-│   └── code/
-│       ├── hello_world.py
-│       └── basic_programs.py
+├── 01_Basics/
+│   ├── variables_and_data_types.py
+│   ├── variable_scope.py
+│   ├── type_casting.py
+│   ├── operators.py
+│   ├── comments_and_docstrings.py
+│   ├── input_handling.py
+│   ├── strings.py
+│   ├── if_else.py
+│   └── loops.py
 │
-├── 02_Variables_and_Data_Types/
-│   ├── notes/
-│   │   └── variables-and-data-types.md
-│   └── code/
-│       ├── variables.py
-│       ├── type_casting.py
-│       └── data_types.py
+├── 02_Functions/
+│   ├── functions.py
+│   ├── parameters_and_arguments.py
+│   ├── lambda.py
+│   ├── map_filter_reduce.py
+│   ├── higher_order_functions.py
+│   ├── recursion.py
+│   └── generators.py
 │
-├── 03_Operators/
-│   ├── notes/
-│   │   └── operators.md
-│   └── code/
-│       └── operators.py
+├── 03_Data_Structures/
+│   ├── lists.py
+│   ├── tuples.py
+│   ├── sets.py
+│   ├── dictionaries.py
+│   └── comprehensions.py
 │
-├── 04_Comments_and_Docstrings/
-│   ├── notes/
-│   │   └── comments-and-docstrings.md
-│   └── code/
-│       └── comments.py
+├── 04_Object_Oriented_Programming/
+│   ├── classes_and_objects.py
+│   ├── constructors.py
+│   ├── instance_methods.py
+│   ├── class_methods.py
+│   ├── static_methods.py
+│   ├── inheritance.py
+│   ├── polymorphism.py
+│   ├── abstraction.py
+│   └── encapsulation.py
 │
-├── 05_Input_Handling/
-│   ├── notes/
-│   └── code/
-│       ├── input.py
-│       └── sys_argv.py
+├── 05_File_and_Exception_Handling/
+│   ├── file_handling.py
+│   └── exception_handling.py
 │
-├── 06_Strings/
-│   ├── notes/
-│   └── code/
-│       └── strings.py
+├── 06_Advanced_Python/
+│   ├── modules_and_packages.py
+│   ├── iterators.py
+│   ├── decorators.py
+│   ├── regular_expressions.py
+│   ├── virtual_environments.py
+│   ├── pip_and_pypi.py
+│   └── logging.py
 │
-├── 07_Control_Flow/
-│   ├── notes/
-│   └── code/
-│       ├── if_else.py
-│       └── loops.py
+├── 07_Database_and_APIs/
+│   ├── database_connection.py
+│   ├── sql_with_python.py
+│   ├── json.py
+│   └── rest_api.py
 │
-├── 08_Functions/
-│   ├── notes/
-│   └── code/
-│       ├── functions.py
-│       ├── parameters.py
-│       ├── lambda.py
-│       ├── map_filter_reduce.py
-│       ├── recursion.py
-│       └── generators.py
+├── 08_Python_Libraries/
+│   ├── numpy.py
+│   ├── pandas.py
+│   ├── matplotlib.py
+│   └── requests.py
 │
-├── 09_Data_Structures/
-│   ├── notes/
-│   └── code/
-│       ├── lists.py
-│       ├── tuples.py
-│       ├── sets.py
-│       └── dictionaries.py
+├── 09_Python_for_Data_Engineering/
+│   ├── file_processing.py
+│   ├── csv_processing.py
+│   ├── json_processing.py
+│   ├── data_cleaning.py
+│   ├── data_transformation.py
+│   ├── data_validation.py
+│   ├── etl.py
+│   └── automation.py
 │
-├── 10_Object_Oriented_Programming/
-│   ├── notes/
-│   └── code/
-│       ├── classes_objects.py
-│       ├── constructors.py
-│       ├── inheritance.py
-│       ├── polymorphism.py
-│       ├── abstraction.py
-│       └── encapsulation.py
-│
-├── 11_File_Handling/
-│   ├── notes/
-│   └── code/
-│       └── file_handling.py
-│
-├── 12_Exception_Handling/
-│   ├── notes/
-│   └── code/
-│       └── exception_handling.py
-│
-├── 13_Advanced_Python/
-│   ├── notes/
-│   └── code/
-│       ├── decorators.py
-│       ├── iterators.py
-│       ├── generators.py
-│       └── logging.py
-│
-├── 14_Database_and_APIs/
-│   ├── notes/
-│   └── code/
-│       ├── database_connection.py
-│       └── rest_api.py
-│
-├── 15_Python_Libraries/
-│   ├── NumPy/
-│   ├── Pandas/
-│   └── Matplotlib/
-│
-├── 16_Automation/
-│   ├── cron/
-│   └── airflow/
-│
-├── 17_Data_Engineering/
-│   ├── ETL/
-│   ├── PySpark/
-│   ├── Airflow/
-│   ├── Kafka/
-│   └── AWS/
-│
-├── 18_Projects/
+├── 10_Projects/
+│   ├── project_01/
+│   ├── project_02/
+│   └── project_03/
 │
 └── README.md
 ```
